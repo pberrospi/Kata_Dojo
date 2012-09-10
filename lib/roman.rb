@@ -10,7 +10,7 @@ class Roman
 				retorno = "#{uno}#{cinco}"
 			elsif i == 4
 				retorno = cinco
-			elsif i == 5
+			elsif i < 7
 				retorno = "#{retorno}#{uno}"
 			end
 		end
