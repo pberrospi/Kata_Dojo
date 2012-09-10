@@ -53,10 +53,13 @@ describe Roman do
   it 'should convert 16 to XVI' do
     @roman.convert(16).must_equal "XVI"
   end
-   it 'should convert 17 to XVII' do
+  it 'should convert 17 to XVII' do
     @roman.convert(17).must_equal "XVII"
   end
-    it 'should convert 18 to XVIII' do
+  it 'should convert 18 to XVIII' do
     @roman.convert(18).must_equal "XVIII"
+  end
+  it 'should convert 19 to XIX' do
+    @roman.convert(19).must_equal "XIX"
   end
 end
