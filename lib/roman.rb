@@ -27,6 +27,8 @@ class Roman
 				retorno = "#{retorno}#{uno}"
 			elsif i == 18
 				retorno = "#{diez}#{uno}#{diez}"
+			else
+				retorno = "#{diez}#{diez}"
 			end
 		end
 		retorno
