@@ -3,7 +3,7 @@ class Roman
   		uno = "I"
   		retorno = ""
 		veces.times do |i|
-			if i < 2
+			if i < 3
 				retorno = "#{retorno}#{uno}"
 			end
 		end
