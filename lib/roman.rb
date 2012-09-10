@@ -23,7 +23,7 @@ class Roman
 				retorno = "#{diez}#{uno}#{cinco}"
 			elsif i == 14
 				retorno = "#{diez}#{cinco}"
-			elsif i < 18
+			elsif i < 19
 				retorno = "#{retorno}#{uno}"
 			end
 		end
