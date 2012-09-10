@@ -21,6 +21,8 @@ class Roman
 				retorno = "#{retorno}#{uno}"
 			elsif i == 13
 				retorno = "#{diez}#{uno}#{cinco}"
+			elsif i == 14
+				retorno = "#{diez}#{cinco}"
 			end
 		end
 		retorno
