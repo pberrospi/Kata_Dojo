@@ -15,8 +15,10 @@ class Roman
 				retorno = "#{retorno}#{uno}"
 			elsif i==8
 				retorno = "#{uno}#{diez}"
-			else
+			elsif i == 9
 				retorno =diez
+			else i == 10
+				retorno = "#{diez}#{uno}"
 			end
 		end
 		retorno
