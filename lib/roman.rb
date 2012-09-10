@@ -17,7 +17,7 @@ class Roman
 				retorno = "#{uno}#{diez}"
 			elsif i == 9
 				retorno =diez
-			else i < 12
+			else i < 13
 				retorno = "#{retorno}#{uno}"
 			end
 		end
