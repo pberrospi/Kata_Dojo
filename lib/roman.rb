@@ -1,9 +1,12 @@
 class Roman
   def convert veces
-			if veces == 1
-				retorno = "I"
+  		uno = "I"
+  		retorno = ""
+		veces.times do |i|
+			if i < 2
+				retorno = "#{retorno}#{uno}"
+			end
 		end
-	#	retorno
-		
+		retorno
 	end
 end
