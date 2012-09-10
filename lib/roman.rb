@@ -2,6 +2,7 @@ class Roman
   def convert veces
   		uno = "I"
   		cinco= "V"
+  		diez  = "X"
   		retorno = ""
 		veces.times do |i|
 			if i < 3
@@ -12,6 +13,8 @@ class Roman
 				retorno = cinco
 			elsif i < 8
 				retorno = "#{retorno}#{uno}"
+			elsif i==8
+				retorno = "#{uno}#{diez}"
 			end
 		end
 		retorno
